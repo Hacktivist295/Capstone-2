@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
 
+
 <body>
     <header>
         <nav>
@@ -28,12 +29,30 @@
                 <h3>Plan Your Visit</h3>
                 <h1>Do COME & VISIT <span class="change_content"> </span></h1>
                 <p>"Life is too short for such adventures"</p>
-                <a href="#" class="btnone">Search parks</a>
-                <a href="#" class="btntwo">BY Locations</a>
+
+
+                <div class="container">
+                    <h2>Park Selection</h2>
+                    <label class="luli" for="location-select">Location:</label>
+                    <select class="chuli" id="location-select">
+                        <option value="">Select Location</option>
+
+                    </select>
+
+                    <label class="luli" for="type-select">Park Type:</label>
+                    <select class="chuli" id="type-select">
+                        <option value="">All Park Type</option>
+
+                    </select>
+
+                    <div id="park-details" class="park-details"></div>
+                </div>
+
             </section>
         </main>
 
     </header>
+    <script src="parks.js"></script>
 </body>
 
 </html>

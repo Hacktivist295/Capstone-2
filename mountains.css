@@ -122,7 +122,7 @@ section .btntwo {
         content: "BASE-CAMPING";
     }
 
-    25%{
+    25% {
         content: "Hut-hut HIKING";
     }
 
@@ -137,4 +137,37 @@ section .btntwo {
     100% {
         content: "ADVANCED HIKING";
     }
+}
+
+#mountainDropdown {
+    height: 65px;
+    margin: 17px 30px 30px 30px;
+    width: 50%;
+    font-size: 33px;
+    font-family: 'Bree Serif', serif;
+    padding: 0px 30px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    height: 42px;
+    color: rgba(0, 0, 0, 0.801);
+}
+
+.boxarry {}
+
+.out {
+    width: 100%;
+    font-size: 25px;
+    word-spacing: 2px;
+    text-shadow: 2px 1px 5px black;
+    background: rgba(0, 0, 0, 0.4);
+    background-repeat:space;
+    background-size: cover;
+    color: white;
+}
+
+#mountainImg {
+    
 }

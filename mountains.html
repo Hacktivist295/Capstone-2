@@ -10,30 +10,48 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    
 
-<body>
-    <header>
-        <nav>
-            <div class="logo">
-                <h1> Mountains </h1>
-            </div>
-            <div class="menu">
-                <a href="index.html">Home</a>
-                <a href="parks.html">parks</a>
-                <a href="mountains.html">mountains</a>
-            </div>
-        </nav>
-        <main>
-            <section>
-                <h3>Plan Your Trip</h3>
-                <h1>Do COME & EXPERIENCE <span class="change_content"> </span></h1>
-                <p>"Visit Us & Have a Life Time Experience"</p>
-                <a href="#" class="btnone">Search parks</a>
-                <a href="#" class="btntwo">BY Locations</a>
-            </section>
-        </main>
+        <body>
+            <header>
+                <nav>
+                    <div class="logo">
+                        <h1> Mountains </h1>
+                    </div>
+                    <div class="menu">
+                        <a href="index.html">Home</a>
+                        <a href="parks.html">parks</a>
+                        <a href="mountains.html">mountains</a>
+                    </div>
+                </nav>
+                <main>
+                    <section>
+                        <h3>Plan Your Trip</h3>
+                        <h1>Do COME & EXPERIENCE <span class="change_content"> </span></h1>
+                        <p>"Visit Us & Have a Life Time Experience"</p>
+                        <!-- <div id="mountainInfo">
+                            <h2 id="mountainName"></h2>
+                            <p id="mountainDescription"></p>
+                            <image id="mountainImage" src="" alt="Mountain Image"></image>
+                                <p id="mountainElevation"></p>
+                        </div> -->
+                        <select class="boxarry" id="mountainDropdown" placeholder="Select A Mountain">
+                        </select>
 
-    </header>
-</body>
+                        <div class="out" id="mountainInfo">
+                            <h2 id="mountainName"></h2>
+                            <p id="mountainDesc"></p>
+                            <img id="mountainImg" src="" alt="Mountain Image">
+                            <p id="mountainElevation"></p>
+                            <p id="mountainCoordinates"></p>
+                        </div>
 
-</html>
+
+                    </section>
+
+                </main>
+            </header>
+            <script src="mountainData.js"></script>
+        </body>
+
+</html >
